@@ -58,7 +58,7 @@ nav{
 
 .container{
     width: 70%;
-    height: 800px;
+    min-height: 800px;
     margin: auto;
 
     /* background-color: rgba(255, 0, 0, 0.445); */
@@ -114,7 +114,10 @@ nav{
     top: 5px;
     right: 0;
 }
-
+.heart:hover{
+    color: red;
+    cursor: pointer;
+}
 .info{
     position: absolute;
     left: 0;
@@ -150,10 +153,29 @@ nav{
     color: red;
     font-weight: bold;
 }
-
+footer{
+    background-color: #1a1a1a;
+    height: 70px;
+}
 .footer-container{
     width: 70%;
     height: 100%;
     margin: auto;
 
+    padding-top: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    /* background-color: rgba(255, 0, 0, 0.349); */
+}
+
+.ft1{
+    font-weight: bold;
+    color: white;
+}
+
+.ft2{
+    font-size: 12px;
+    color: white;
+    padding-right: 5px;
 }
