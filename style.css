@@ -141,18 +141,25 @@ nav{
     background-color: green;
 }
 
-.t1{
-    font-size: 15px;
+.t1,s{
+    font-size: 10px;
 }
 
 .t2{
+    font-size: 15px;
     font-weight: bold;
 }
 
 .t3{
     color: red;
     font-weight: bold;
+    font-size: 10px;
 }
+
+/* /main */
+
+/* footer */
+
 footer{
     background-color: #1a1a1a;
     height: 70px;
@@ -179,3 +186,5 @@ footer{
     color: white;
     padding-right: 5px;
 }
+
+/* /footer */
